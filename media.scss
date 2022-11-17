@@ -1,0 +1,140 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1024px) {
+  #product {
+    .product {
+      &--block {
+        margin: 0 10px;
+      }
+    }
+  }
+  #farmers {
+    .farmers {
+      &--block {
+        margin: 0 10px;
+      }
+    }
+  }
+  #headline {
+    .headline {
+      &--block {
+        margin: 0 10px;
+      }
+    }
+  }
+  #menu {
+    .menu {
+      &--block {
+        margin: 0 10px;
+      }
+    }
+  }
+  #git {
+    .git {
+      justify-content: space-around;
+    }
+  }
+  #blog {
+    .blog {
+      //justify-content: space-between;
+      //align-items: center;
+      flex-direction: column;
+
+      &--title {
+        margin-top: 10px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    display: none;
+  }
+  #navbar{
+    .navbar{
+      &--input{
+        display: none;
+      }
+    }
+  }
+  #menu {
+    .menu {
+      flex-direction: column;
+
+      &--block {
+        margin: 10px;
+      }
+    }
+  }
+  #blocks {
+    .blocks {
+      &--one {
+        h1 {
+          font-size: 10px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #hero {
+    display: none;
+  }
+  #product {
+    .product {
+      flex-direction: column;
+
+      &--block {
+        margin: 10px;
+      }
+    }
+  }
+  #farmers {
+    .farmers {
+      flex-direction: column;
+
+      &--block {
+        margin: 10px;
+      }
+    }
+  }
+  #headline {
+    .headline {
+      flex-direction: column;
+
+      &--block {
+        margin: 10px;
+      }
+    }
+  }
+  #navbar {
+    .navbar {
+      &--input {
+        input {
+          margin: 10px;
+        }
+      }
+    }
+  }
+  #footer {
+    .footer {
+      &--end {
+        flex-direction: column;
+
+        &__btn {
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+
+}
